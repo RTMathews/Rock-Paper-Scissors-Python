@@ -8,6 +8,8 @@ def rps(player_one, player_two):
     while player_two != "Rock" and player_two != "Paper" and player_two != "Scissors":
         player_two = input("Player 2, Please enter Rock, Paper, or Scissors: ")
 
+def compare(player_one, player_two):
+
     if player_one == "Rock" and player_two == "Scissors":
         print("Rock Beats Scissors! Player 1 Wins!")
     elif player_one == "Paper" and player_two == "Rock":
