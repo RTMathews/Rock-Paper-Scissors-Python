@@ -30,8 +30,19 @@ def compare(player_one, player_two):
     else:
         print("It's a Draw!")
 
+
+def again():
+    play_again = input("Would you like to play again? y / n: ")
+    while play_again != "y" and play_again != "n":
+        play_again = input("Would you like to play again? y / n: ")
+    if play_again == "y":
+        results()
+    else:
+        exit
+
 def results():
     player1, player2 = rps()
     compare(player1, player2)
+    again()
 
 results()
