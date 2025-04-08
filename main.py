@@ -31,8 +31,7 @@ def compare(player_one, player_two):
         print("It's a Draw!")
 
 def results():
-    player1 = rps()[0]
-    player2= rps()[1]
+    player1, player2 = rps()
     compare(player1, player2)
 
 results()
