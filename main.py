@@ -1,4 +1,4 @@
-def rps(player_one, player_two):
+def rps():
     """Ask players for their input."""
  
     player_one = input("Player 1, Please enter Rock, Paper, or Scissors: ")
@@ -29,3 +29,5 @@ def compare(player_one, player_two):
         print("Rock Beats Scissors! Player 2 Wins!")
     else:
         print("It's a Draw!")
+
+rps()
