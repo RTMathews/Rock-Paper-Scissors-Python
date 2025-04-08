@@ -9,6 +9,8 @@ def rps(player_one, player_two):
     while player_two != "Rock" and player_two != "Paper" and player_two != "Scissors":
         player_two = input("Player 2, Please enter Rock, Paper, or Scissors: ")
 
+    return player_one, player_two
+
 
 def compare(player_one, player_two):
     """Compares the player inputs."""
