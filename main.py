@@ -1,10 +1,10 @@
 player_one = input("Player 1, Please enter Rock, Paper, or Scissors: ")
-while player_one != "Rock" or "Paper" or "Scissors":
-    player_one = input("Please enter Rock, Paper, or Scissors: ")
+while player_one != "Rock" and player_one != "Paper" and player_one != "Scissors":
+    player_one = input("Player 1, Please enter Rock, Paper, or Scissors: ")
 
 player_two = input("Player 2, Please enter Rock, Paper, or Scissors: ")
-while player_two != "Rock" or "Paper" or "Scissors":
-    player_two = input("Please enter Rock, Paper, or Scissors: ")
+while player_two != "Rock" and player_two != "Paper" and player_two != "Scissors":
+    player_two = input("Player 2, Please enter Rock, Paper, or Scissors: ")
 
 if player_one == "Rock" and player_two == "Scissors":
     print("Player 1 Wins!")
