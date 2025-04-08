@@ -16,7 +16,7 @@ def compare(player_one, player_two):
     """Compares the player inputs."""
 
     if player_one == "Rock" and player_two == "Scissors":
-        print("Rock Beats Scissors! Player 1 Wins!")
+       return print("Rock Beats Scissors! Player 1 Wins!")
     elif player_one == "Paper" and player_two == "Rock":
         print("Paper Beats Rock! Player 1 Wins!")
     elif player_one == "Scissors" and player_two == "Paper":
@@ -30,4 +30,9 @@ def compare(player_one, player_two):
     else:
         print("It's a Draw!")
 
-rps()
+def results():
+    player1 = rps()[0]
+    player2= rps()[1]
+    compare(player1, player2)
+
+results()
