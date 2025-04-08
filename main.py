@@ -7,16 +7,16 @@ while player_two != "Rock" and player_two != "Paper" and player_two != "Scissors
     player_two = input("Player 2, Please enter Rock, Paper, or Scissors: ")
 
 if player_one == "Rock" and player_two == "Scissors":
-    print("Player 1 Wins!")
+    print("Rock Beats Scissors! Player 1 Wins!")
 elif player_one == "Paper" and player_two == "Rock":
-    print("Player 1 Wins!")
+    print("Paper Beats Rock! Player 1 Wins!")
 elif player_one == "Scissors" and player_two == "Paper":
-    print("player 1 Wins!")
+    print("Scissors Beat Paper! Player 1 Wins!")
 elif player_one == "Rock" and player_two == "Paper":
-    print("Player 2 Wins!")
+    print("Paper Beats Rock! Player 2 Wins!")
 elif player_one == "Paper" and player_two == "Scissors":
-    print("Player 2 Wins!")
+    print("Scissors Beats Paper! Player 2 Wins!")
 elif player_one == "Scissors" and player_two == "Rock":
-    print("Player 2 Wins!")
+    print("Rock Beats Scissors! Player 2 Wins!")
 else:
     print("It's a Draw!")
